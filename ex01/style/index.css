@@ -1,0 +1,27 @@
+/* ----------------------
+        Gallery Images
+-----------------------*/
+h1 {
+    text-align: center;
+    color: red;
+}
+h2 {
+    color: lightblue;
+}
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.galleryItem {
+    height: auto;
+    width: 30%;
+    display: block;
+    margin-bottom: 20px;
+}
+.galleryItem img {
+    width: 100%;
+}
